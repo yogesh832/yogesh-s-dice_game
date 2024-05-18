@@ -1,0 +1,72 @@
+body {
+   
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #aef;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: dancing script;
+    font-weight: 30px;
+    
+}
+
+.container {
+    text-align: center;
+}
+.logo span{
+    font-size: 3rem;
+    margin-left: 60px;
+    margin-top: 60px;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-bottom: 20px;
+    color: #82e0aa;
+    margin: 20px;
+
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.player {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #aef;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    background-color: #b20e10;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.footer{
+    height: 200px;
+    display: inline;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80vh;
+    margin-bottom: 50px;
+}
+.footer, .container{
+    display: block;
+}
